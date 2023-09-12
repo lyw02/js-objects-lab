@@ -34,6 +34,6 @@ for (let i = 0 ; i < aCar.features.length ; i += 1) {
     console.log(aCar.features[i]) ;
 }
 
-for (let i = 0; i < aCar.previous_owners.length; i++) {
+for (let i = 0; i < aCar.previous_owners.length; i += 1) {
     console.log(aCar.previous_owners[i].owner);
 }
