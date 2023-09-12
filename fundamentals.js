@@ -6,6 +6,7 @@ const aCar = {
         { owner : "Sheila Dwyer", address : "2 High Street" }
     ],
     type : 'Toyota Corolla 1.8',
+    features : ['Parking assist', 'Alarm', 'Tow-bar'],
     registration : '201WD1058'
 };
 
@@ -21,3 +22,11 @@ aCar.colour = {
 console.log(aCar.owner);
 
 console.log('First owner : ' + `${aCar.previous_owners[0].owner} - ${aCar.previous_owners[0].address}`);
+
+for (let i = 0 ; i < aCar.features.length ; i += 1) {
+    console.log(aCar.features[i]) ;
+}
+
+for (let i = 0; i < aCar.previous_owners.length; i++) {
+    console.log(aCar.previous_owners[i].owner);
+}
